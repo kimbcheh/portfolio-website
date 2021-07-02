@@ -1,11 +1,16 @@
 import './App.scss'
 
 function App() {
-	return (
-		<div>
-			<h1>portfolio</h1>
-		</div>
-	)
+ return (
+  <div>
+   <header>placeholder header</header>
+   <main>
+    <section>placeholder projects section</section>
+    <section>placeholder about section</section>
+   </main>
+   <footer>placeholder footer</footer>
+  </div>
+ )
 }
 
 export default App
