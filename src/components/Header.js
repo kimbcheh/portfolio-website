@@ -1,7 +1,6 @@
 import { linkData } from '../data'
 
 function Header() {
- console.log(linkData)
  return (
   <header>
    <nav>
