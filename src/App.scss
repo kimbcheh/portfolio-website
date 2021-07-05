@@ -4,6 +4,10 @@
  border-bottom: 1px solid black;
 }
 
+.symbol {
+ font-family: 'Arial';
+}
+
 // header styles
 
 nav {
@@ -67,7 +71,7 @@ section {
  h3 {
   font-weight: normal;
   text-decoration: underline;
-  margin-top: 1rem;
+  margin: 1rem 0 0 0;
  }
  .project-tech {
   font-size: 0.8rem;
