@@ -4,8 +4,9 @@ function Header() {
  return (
   <header>
    <nav className='bottom-border'>
-    <h1 className='desktop-heading'>&#x2736; KIMBERLY CHEH</h1>
-    <h1 className='mobile-heading'>&#x2736; KIMB.</h1>
+    <span className='star'>&#x2736;</span>
+    <h1 className='desktop-heading'> KIMBERLY CHEH</h1>
+    <h1 className='mobile-heading'> KIMB.</h1>
     <ul>
      {linkData.map((link) => {
       return (

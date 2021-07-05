@@ -5,7 +5,7 @@ function Projects() {
  return (
   <section className='bottom-border'>
    <h2>
-    &#x2736; PROJECTS <span className='symbol'>&#x2193;</span>
+    PROJECTS <span className='symbol'>&#x2193;</span>
    </h2>
    {projectData.map((project) => {
     return (
