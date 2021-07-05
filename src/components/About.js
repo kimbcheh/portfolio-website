@@ -1,7 +1,9 @@
 function About() {
  return (
   <section className='bottom-border'>
-   <h2>ABOUT ME</h2>
+   <h2>
+    &#x2736; ABOUT ME <span className='symbol'>&#x2193;</span>
+   </h2>
    <p className='about-text'>
     Avocado basil pesto winter apples lime seitan hearts of palm one bowl cumin
     arugula salad sweet potato avocado pesto peaches sesame soba noodles red
