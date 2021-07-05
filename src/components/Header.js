@@ -3,9 +3,9 @@ import { linkData } from '../data'
 function Header() {
  return (
   <header>
-   <nav>
-    <h1>KIMBERLY CHEH</h1>
-    <h1>KIMB.</h1>
+   <nav className='bottom-border'>
+    <h1 className='desktop-heading'>KIMBERLY CHEH</h1>
+    <h1 className='mobile-heading'>KIMB.</h1>
     <ul>
      {linkData.map((link) => {
       return (
@@ -16,9 +16,11 @@ function Header() {
      })}
     </ul>
    </nav>
-   <p>
-    Kimberly is a front-end developer based in Melbourne, Australia &#128171;
-   </p>
+   <div className='hero-container bottom-border'>
+    <p className='hero-text'>
+     Kimberly is a front-end developer based in Melbourne, Australia &#128171;
+    </p>
+   </div>
   </header>
  )
 }

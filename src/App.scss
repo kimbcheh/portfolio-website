@@ -1,0 +1,48 @@
+// global classes
+
+.bottom-border {
+ border-bottom: 1px solid black;
+}
+
+// header styles
+
+nav {
+ display: flex;
+ align-items: center;
+ height: 80px;
+ h1 {
+  flex-grow: 1;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+ }
+ .desktop-heading {
+  display: none;
+ }
+ @media (min-width: 600px) {
+  .mobile-heading {
+   display: none;
+  }
+  .desktop-heading {
+   display: block;
+  }
+ }
+ ul {
+  list-style: none;
+  margin: 0;
+ }
+ li {
+  display: inline-block;
+  padding-left: 1rem;
+ }
+}
+
+.hero-container {
+ display: flex;
+ align-items: center;
+ height: 400px;
+}
+
+.hero-text {
+ font-size: 2rem;
+}
