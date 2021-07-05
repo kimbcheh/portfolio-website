@@ -1,8 +1,8 @@
 function About() {
  return (
-  <section>
-   <h2>ABOUT</h2>
-   <p>
+  <section className='bottom-border'>
+   <h2>ABOUT ME</h2>
+   <p className='about-text'>
     Avocado basil pesto winter apples lime seitan hearts of palm one bowl cumin
     arugula salad sweet potato avocado pesto peaches sesame soba noodles red
     amazon pepper miso turmeric glazed aubergine entree avocado dressing drizzle
