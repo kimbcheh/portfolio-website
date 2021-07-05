@@ -1,7 +1,7 @@
 function Footer() {
  return (
   <footer>
-   <p>&#127826; Made by Kimberly Cheh</p>
+   <small>&#127826; DESIGNED + CODED BY KIMBERLY CHEH</small>
   </footer>
  )
 }
