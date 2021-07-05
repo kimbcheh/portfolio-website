@@ -1,4 +1,23 @@
-// global classes
+// global styles
+
+@import-normalize;
+
+body {
+ margin: auto;
+ padding: 0 1rem;
+ max-width: 1000px;
+ font-family: 'Poppins', sans-serif;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+ color: inherit;
+ &:hover {
+  color: white;
+  background-color: black;
+ }
+}
 
 .bottom-border {
  border-bottom: 1px solid black;
