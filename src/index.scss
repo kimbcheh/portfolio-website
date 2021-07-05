@@ -1,7 +1,9 @@
 @import-normalize;
 
 body {
- margin: 0;
+ margin: auto;
+ padding: 0 1rem;
+ max-width: 1000px;
  font-family: 'Poppins', sans-serif;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
