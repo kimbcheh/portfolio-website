@@ -12,10 +12,6 @@ export const projectData = [
 
 export const linkData = [
  {
-  title: 'LINKEDIN',
-  url: '/',
- },
- {
   title: 'GITHUB',
   url: 'https://github.com/kimbcheh',
  },
