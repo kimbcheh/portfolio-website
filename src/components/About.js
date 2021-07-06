@@ -21,10 +21,10 @@ function About() {
     <p>
      Some technology I've worked with...
      <ul>
-      <li>LANGUAGES: HTML5, CSS3 AND JAVASCRIPT ES6</li>
-      <li>FRAMEWORKS: REACT</li>
+      <li>— LANGUAGES: HTML5, CSS3 AND JAVASCRIPT ES6</li>
+      <li>— FRAMEWORKS: REACT</li>
       <li>
-       OTHER: VERSION CONTROL, RESTFUL API, CSS FRAMEWORKS, SASS AND FIGMA
+       — OTHER: VERSION CONTROL, RESTFUL API, CSS FRAMEWORKS, SASS AND FIGMA
       </li>
      </ul>
     </p>
