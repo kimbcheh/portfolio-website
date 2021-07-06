@@ -1,12 +1,12 @@
 export const projectData = [
  {
   title: 'Lucid Weather',
-  tech: 'REACT / CSS / AXIOS',
+  tech: 'REACT / CSS / OPENWEATHER API',
   description:
-   "A simple web app for displaying current and future weather data for any Australian city. The app's background will change according to the current weather conditions. Built using the OpenWeather API.",
+   "A simple web app for displaying current and future weather data for any Australian city. The app's background will change according to the current weather conditions.",
   demo: 'https://lucid-weather.netlify.app/',
   github: 'https://github.com/kimbcheh/lucid-weather',
-  image: 'placeholder.jpeg',
+  image: 'lucid-weather.jpg',
  },
  {
   title: 'Project 2',
