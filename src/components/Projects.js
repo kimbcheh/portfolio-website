@@ -1,7 +1,4 @@
-import { projectData } from '../data'
-import placeholder from '../assets/placeholder.jpeg'
-
-function Projects() {
+function Projects({ projectData }) {
  return (
   <section className='bottom-border'>
    <h2>
@@ -10,7 +7,10 @@ function Projects() {
    {projectData.map((project) => {
     return (
      <div key={project.title} className='project'>
-      <img src={placeholder}></img>
+      <img
+       src={require(`../assets/${project.image}`).default}
+       alt={`Screenshot of ${project.title}`}
+      ></img>
       <h3>{project.title}</h3>
       <p className='project-tech'>{project.tech}</p>
       <p className='project-desc'>{project.description}</p>
