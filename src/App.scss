@@ -1,0 +1,163 @@
+// global styles
+
+@import-normalize;
+
+$background-color: #f4f1ed;
+
+body {
+ background-color: $background-color;
+ font-family: 'Poppins', sans-serif;
+ -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased;
+ margin: auto;
+ max-width: 1000px;
+ padding: 0 1rem;
+}
+
+a {
+ color: inherit;
+ &:hover {
+  background-color: black;
+  color: white;
+ }
+}
+
+.bottom-border {
+ border-bottom: 1px solid black;
+}
+
+.symbol {
+ font-family: 'Arial';
+}
+
+// header styles
+
+nav {
+ align-items: center;
+ background-color: $background-color;
+ display: flex;
+ height: 80px;
+ left: 1rem;
+ margin: auto;
+ max-width: 1000px;
+ position: fixed;
+ right: 1rem;
+ top: 0;
+ h1 {
+  flex-grow: 1;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+  padding-left: 20px;
+ }
+ .desktop-heading {
+  display: none;
+ }
+ @media (min-width: 600px) {
+  .mobile-heading {
+   display: none;
+  }
+  .desktop-heading {
+   display: block;
+  }
+ }
+ ul {
+  list-style: none;
+  margin: 0;
+ }
+ li {
+  text-align: right;
+ }
+ @media (min-width: 450px) {
+  li {
+   display: inline-block;
+   padding-left: 1rem;
+  }
+ }
+}
+
+.hero-container {
+ align-items: center;
+ display: flex;
+ height: 400px;
+ margin-top: 80px;
+}
+
+.hero-text {
+ font-size: 2rem;
+}
+
+.star {
+ -moz-animation: spin 4s linear infinite;
+ -webkit-animation: spin 4s linear infinite;
+ animation: spin 4s linear infinite;
+ position: absolute;
+}
+@keyframes spin {
+ 100% {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+ }
+}
+@-moz-keyframes spin {
+ 100% {
+  -moz-transform: rotate(360deg);
+ }
+}
+@-webkit-keyframes spin {
+ 100% {
+  -webkit-transform: rotate(360deg);
+ }
+}
+
+// section styles
+
+section {
+ h2 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 2rem 0;
+ }
+}
+
+// project styles
+
+.project {
+ margin-bottom: 2rem;
+ img {
+  max-width: 100%;
+ }
+ h3 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 1rem 0 0 0;
+  text-decoration: underline;
+ }
+ .project-tech {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+ }
+ .project-desc {
+  margin: 1rem 0;
+ }
+ a {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+ }
+}
+
+// about styles
+
+.about-text {
+ margin-bottom: 2rem;
+}
+
+// footer styles
+
+footer {
+ align-items: center;
+ display: flex;
+ height: 80px;
+ justify-content: center;
+}
