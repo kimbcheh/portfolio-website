@@ -1,6 +1,4 @@
-import { linkData } from '../data'
-
-function Header() {
+function Header({ linkData }) {
  return (
   <header>
    <nav className='bottom-border'>
