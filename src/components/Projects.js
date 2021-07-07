@@ -1,9 +1,7 @@
 function Projects({ projectData }) {
  return (
   <section className='bottom-border'>
-   <h2>
-    PROJECTS <span className='symbol'>&#x2193;</span>
-   </h2>
+   <h2>PROJECTS &#x2193;</h2>
    {projectData.map((project) => {
     return (
      <div key={project.title} className='project'>
@@ -15,8 +13,10 @@ function Projects({ projectData }) {
       <p className='project-tech'>[ {project.tech} ]</p>
       <p className='project-desc'>{project.description}</p>
       <p className='project-links'>
-       SEE THE <a href={project.demo}>LIVE DEMO</a>&#x2197; AND THE{' '}
-       <a href={project.github}>CODE ON GITHUB</a>&#x2197;
+       SEE THE <span className='project-arrow'>&#8594; </span>
+       <a href={project.demo}>LIVE DEMO</a> AND THE{' '}
+       <span className='project-arrow'>&#8594; </span>
+       <a href={project.github}>SOURCE CODE</a>
       </p>
      </div>
     )

@@ -7,7 +7,7 @@ $main-width: 600px;
 
 body {
  background-color: $background-color;
- font-family: 'Poppins', sans-serif;
+ font-family: 'Work Sans', sans-serif;
  -moz-osx-font-smoothing: grayscale;
  -webkit-font-smoothing: antialiased;
  margin: auto;
@@ -25,10 +25,6 @@ a {
 
 .bottom-border {
  border-bottom: 1px solid black;
-}
-
-.symbol {
- font-family: 'Arial';
 }
 
 // header styles
@@ -123,17 +119,22 @@ section {
  }
  h3 {
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 500;
   margin: 1rem 0 0 0;
  }
  .project-tech {
   font-size: 0.8rem;
+  font-family: 'IBM Plex Mono', monospace;
  }
  .project-desc {
   margin: 1rem 0;
  }
  .project-links {
   font-size: 0.8rem;
+  font-family: 'IBM Plex Mono', monospace;
+  .project-arrow {
+   font-family: 'Work Sans', sans-serif;
+  }
  }
 }
 
