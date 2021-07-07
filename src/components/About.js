@@ -1,6 +1,11 @@
 function About() {
  return (
   <section className='bottom-border'>
+   <div className='hero-container'>
+    <p className='hero-text'>
+     Kimberly is a front-end developer based in Melbourne, Australia &#128171;
+    </p>
+   </div>
    <h2>
     ABOUT ME <span className='symbol'>&#x2193;</span>
    </h2>

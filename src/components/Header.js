@@ -16,11 +16,6 @@ function Header({ linkData }) {
      })}
     </ul>
    </nav>
-   <div className='hero-container bottom-border'>
-    <p className='hero-text'>
-     Kimberly is a front-end developer based in Melbourne, Australia &#128171;
-    </p>
-   </div>
   </header>
  )
 }
