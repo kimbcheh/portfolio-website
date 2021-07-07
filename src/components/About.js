@@ -2,35 +2,17 @@ function About() {
  return (
   <section className='bottom-border'>
    <div className='hero-container'>
-    <p className='hero-text'>
-     Kimberly is a front-end developer based in Melbourne, Australia &#128171;
-    </p>
-   </div>
-   <h2>
-    ABOUT ME <span className='symbol'>&#x2193;</span>
-   </h2>
-   <div className='about-text'>
+    <p className='hero-text'>Hey, I'm Kimberly &#128171;</p>
     <p>
-     Hi I'm Kimberly! I'm a detail-oriented professional looking to pivot into
-     software development. I have undertaken self-directed learning in various
-     front-end languages and tools and am focused on continually improving my
-     skills.
+     I'm a front-end developer based in Melbourne, Australia. I mainly work with
+     front-end technologies: HTML5, CSS3, Javascript ES6 (and frameworks
+     including React!).
     </p>
+    <p>I love problem-solving, good design and a cup of coffee.</p>
     <p>
-     From my previous work experience, I bring analytical thinking,
-     problem-solving skills and clear communication to the table.
+     Check out my <a href='/'>resume</a>&#x2197; and my{' '}
+     <a href='https://github.com/kimbcheh'>GitHub</a>&#x2197;
     </p>
-    <p>
-     On a more personal note, I'm a huge fan of good design and coffee! &#9749;
-    </p>
-    <p>Some technology I've worked with...</p>
-    <ul>
-     <li>— LANGUAGES: HTML5, CSS3 AND JAVASCRIPT ES6</li>
-     <li>— FRAMEWORKS: REACT</li>
-     <li>
-      — OTHER: VERSION CONTROL, RESTFUL API, CSS FRAMEWORKS, SASS AND FIGMA
-     </li>
-    </ul>
    </div>
   </section>
  )
