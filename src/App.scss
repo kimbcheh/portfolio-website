@@ -3,6 +3,7 @@
 @import-normalize;
 
 $background-color: #f4f1ed;
+$main-width: 600px;
 
 body {
  background-color: $background-color;
@@ -10,7 +11,7 @@ body {
  -moz-osx-font-smoothing: grayscale;
  -webkit-font-smoothing: antialiased;
  margin: auto;
- max-width: 1000px;
+ max-width: $main-width;
  padding: 0 1rem;
 }
 
@@ -39,7 +40,7 @@ nav {
  height: 80px;
  left: 1rem;
  margin: auto;
- max-width: 1000px;
+ max-width: $main-width;
  position: fixed;
  right: 1rem;
  top: 0;
