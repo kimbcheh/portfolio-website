@@ -9,14 +9,3 @@ export const projectData = [
   image: 'lucid-weather.jpg',
  },
 ]
-
-export const linkData = [
- {
-  title: 'GITHUB',
-  url: 'https://github.com/kimbcheh',
- },
- {
-  title: 'RESUME',
-  url: '/',
- },
-]
