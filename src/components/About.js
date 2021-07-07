@@ -10,8 +10,10 @@ function About() {
     </p>
     <p>I love problem-solving, good design and a cup of coffee.</p>
     <p>
-     Check out my <a href='/'>resume</a>&#x2197; and my{' '}
-     <a href='https://github.com/kimbcheh'>GitHub</a>&#x2197;
+     Check out my <a href='/'>resume</a>
+     <span className='about-arrow'>&#x2197;</span> and my{' '}
+     <a href='https://github.com/kimbcheh'>GitHub</a>
+     <span className='about-arrow'>&#x2197;</span>
     </p>
    </div>
   </section>
