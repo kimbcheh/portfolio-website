@@ -10,8 +10,8 @@ function App() {
   <div>
    <Header linkData={linkData} />
    <main>
-    <Projects projectData={projectData} />
     <About />
+    <Projects projectData={projectData} />
    </main>
    <Footer />
   </div>
