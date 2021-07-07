@@ -12,13 +12,12 @@ function Projects({ projectData }) {
        alt={`Screenshot of ${project.title}`}
       ></img>
       <h3>{project.title}</h3>
-      <p className='project-tech'>{project.tech}</p>
+      <p className='project-tech'>[ {project.tech} ]</p>
       <p className='project-desc'>{project.description}</p>
-      <span className='symbol'>&#x2192;</span>{' '}
-      <a href={project.demo}>SEE LIVE DEMO</a>
-      <br />
-      <span className='symbol'>&#x2192;</span>{' '}
-      <a href={project.github}>SEE GITHUB</a>
+      <p className='project-links'>
+       SEE THE <a href={project.demo}>LIVE DEMO</a>&#x2197; AND THE{' '}
+       <a href={project.github}>CODE ON GITHUB</a>&#x2197;
+      </p>
      </div>
     )
    })}
