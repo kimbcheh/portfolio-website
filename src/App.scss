@@ -1,23 +1,29 @@
-// global styles
+// css normalize
 
 @import-normalize;
 
-$background-color: #f4f1ed;
+// scss variables
+
+$background-color: #fff;
+$accent-color: #004df9;
+$main-width: 600px;
+
+// global styles and classes
 
 body {
  background-color: $background-color;
- font-family: 'Poppins', sans-serif;
+ font-family: 'Work Sans', sans-serif;
  -moz-osx-font-smoothing: grayscale;
  -webkit-font-smoothing: antialiased;
  margin: auto;
- max-width: 1000px;
+ max-width: $main-width;
  padding: 0 1rem;
 }
 
 a {
- color: inherit;
+ color: $accent-color;
  &:hover {
-  background-color: black;
+  background-color: $accent-color;
   color: white;
  }
 }
@@ -26,20 +32,16 @@ a {
  border-bottom: 1px solid black;
 }
 
-.symbol {
- font-family: 'Arial';
-}
-
 // header styles
 
-nav {
+header {
  align-items: center;
  background-color: $background-color;
  display: flex;
  height: 80px;
  left: 1rem;
  margin: auto;
- max-width: 1000px;
+ max-width: $main-width;
  position: fixed;
  right: 1rem;
  top: 0;
@@ -49,6 +51,7 @@ nav {
   font-weight: normal;
   margin: 0;
   padding-left: 20px;
+  color: $accent-color;
  }
  .desktop-heading {
   display: none;
@@ -61,30 +64,6 @@ nav {
    display: block;
   }
  }
- ul {
-  list-style: none;
-  margin: 0;
- }
- li {
-  text-align: right;
- }
- @media (min-width: 450px) {
-  li {
-   display: inline-block;
-   padding-left: 1rem;
-  }
- }
-}
-
-.hero-container {
- align-items: center;
- display: flex;
- height: 400px;
- margin-top: 80px;
-}
-
-.hero-text {
- font-size: 2rem;
 }
 
 .star {
@@ -92,6 +71,7 @@ nav {
  -webkit-animation: spin 4s linear infinite;
  animation: spin 4s linear infinite;
  position: absolute;
+ color: $accent-color;
 }
 @keyframes spin {
  100% {
@@ -110,17 +90,35 @@ nav {
  }
 }
 
-// section styles
+// about styles
 
-section {
- h2 {
-  font-size: 1.2rem;
-  font-weight: normal;
-  margin: 2rem 0;
+.hero-container {
+ align-items: left;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ height: 500px;
+ margin-top: 80px;
+ p {
+  margin: 0.5rem 0;
+ }
+ .hero-text {
+  font-size: 2rem;
+ }
+ .about-arrow {
+  color: $accent-color;
  }
 }
 
 // project styles
+
+section {
+ h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 2rem 0;
+ }
+}
 
 .project {
  margin-bottom: 2rem;
@@ -129,29 +127,24 @@ section {
  }
  h3 {
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 500;
   margin: 1rem 0 0 0;
  }
  .project-tech {
   font-size: 0.8rem;
+  font-family: 'IBM Plex Mono', monospace;
  }
  .project-desc {
   margin: 1rem 0;
  }
  .project-links {
   font-size: 0.8rem;
- }
-}
-
-// about styles
-
-.about-text {
- margin-bottom: 2rem;
- ul {
-  list-style-type: none;
-  font-size: 0.8rem;
+  font-family: 'IBM Plex Mono', monospace;
   line-height: 1.5rem;
-  padding-left: 0;
+  .project-arrow {
+   font-family: 'Work Sans', sans-serif;
+   color: $accent-color;
+  }
  }
 }
 
