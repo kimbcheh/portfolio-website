@@ -16,10 +16,10 @@ describe('Projects', () => {
   ]
   render(<Projects projectData={data} />)
   expect(screen.getByText('Project Title 1')).toBeInTheDocument()
-  expect(screen.getByText('REACT')).toBeInTheDocument()
+  expect(screen.getByText(/REACT/)).toBeInTheDocument()
   expect(screen.getByText('Project Description 1')).toBeInTheDocument()
   expect(screen.getByText('SEE LIVE DEMO')).toBeInTheDocument()
-  expect(screen.getByText('SEE GITHUB')).toBeInTheDocument()
+  expect(screen.getByText('SEE SOURCE CODE')).toBeInTheDocument()
   expect(
    screen.getByAltText('Screenshot of Project Title 1')
   ).toBeInTheDocument()
