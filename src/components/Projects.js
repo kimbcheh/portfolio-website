@@ -13,10 +13,11 @@ function Projects({ projectData }) {
       <p className='project-tech'>[ {project.tech} ]</p>
       <p className='project-desc'>{project.description}</p>
       <p className='project-links'>
-       SEE THE <span className='project-arrow'>&#8594; </span>
-       <a href={project.demo}>LIVE DEMO</a> AND THE{' '}
        <span className='project-arrow'>&#8594; </span>
-       <a href={project.github}>SOURCE CODE</a>
+       <a href={project.demo}>SEE LIVE DEMO</a>
+       <br />
+       <span className='project-arrow'>&#8594; </span>
+       <a href={project.github}>SEE SOURCE CODE</a>
       </p>
      </div>
     )
