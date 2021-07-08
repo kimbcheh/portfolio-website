@@ -11,7 +11,7 @@ function About() {
     <p>I love problem-solving, good design and a cup of coffee.</p>
     <p>
      Check out my <a href='/'>resume</a>
-     <span className='about-arrow'>&#x2197;</span> and my{' '}
+     <span className='about-arrow'>&#x2197;</span> and visit my{' '}
      <a href='https://github.com/kimbcheh'>GitHub</a>
      <span className='about-arrow'>&#x2197;</span>
     </p>
