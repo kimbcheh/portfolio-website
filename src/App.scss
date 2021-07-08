@@ -1,10 +1,14 @@
-// global styles
+// css normalize
 
 @import-normalize;
+
+// scss variables
 
 $background-color: #fff;
 $accent-color: #004df9;
 $main-width: 600px;
+
+// global styles and classes
 
 body {
  background-color: $background-color;
@@ -30,7 +34,7 @@ a {
 
 // header styles
 
-nav {
+header {
  align-items: center;
  background-color: $background-color;
  display: flex;
@@ -62,26 +66,6 @@ nav {
  }
 }
 
-.hero-container {
- align-items: left;
- display: flex;
- flex-direction: column;
- justify-content: center;
- height: 500px;
- margin-top: 80px;
- p {
-  margin: 0.5rem;
- }
- .about-arrow {
-  color: $accent-color;
- }
-}
-
-.hero-text {
- font-size: 2rem;
- margin: 0;
-}
-
 .star {
  -moz-animation: spin 4s linear infinite;
  -webkit-animation: spin 4s linear infinite;
@@ -106,17 +90,35 @@ nav {
  }
 }
 
-// section styles
+// about styles
 
-section {
- h2 {
-  font-size: 1.2rem;
-  font-weight: normal;
-  margin: 2rem 0;
+.hero-container {
+ align-items: left;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ height: 500px;
+ margin-top: 80px;
+ p {
+  margin: 0.5rem 0;
+ }
+ .hero-text {
+  font-size: 2rem;
+ }
+ .about-arrow {
+  color: $accent-color;
  }
 }
 
 // project styles
+
+section {
+ h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 2rem 0;
+ }
+}
 
 .project {
  margin-bottom: 2rem;
@@ -138,18 +140,13 @@ section {
  .project-links {
   font-size: 0.8rem;
   font-family: 'IBM Plex Mono', monospace;
+  line-height: 1.5rem;
   .project-arrow {
    font-family: 'Work Sans', sans-serif;
    color: $accent-color;
   }
  }
 }
-
-// about styles
-
-// .about-text {
-//  margin-bottom: 2rem;
-// }
 
 // footer styles
 
